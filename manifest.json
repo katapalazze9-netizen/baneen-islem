@@ -1,0 +1,17 @@
+{
+  "name": "بنين الإسلام",
+  "short_name": "بنين الإسلام",
+  "description": "تطبيق إسلامي متكامل",
+  "start_url": "/baneen-islem/",
+  "scope": "/baneen-islem/",
+  "display": "standalone",
+  "background_color": "#0B452B",
+  "theme_color": "#0B452B",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

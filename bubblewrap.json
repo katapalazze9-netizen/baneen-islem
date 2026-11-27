@@ -1,0 +1,14 @@
+{
+  "appId": "com.baneen.islam",
+  "appName": "بنين الإسلام",
+  "webManifestUrl": "https://katapalazze9-netizen.github.io/baneen-islem/manifest.json",
+  "startUrl": "/baneen-islem/",
+  "themeColor": "#0B452B",
+  "backgroundColor": "#0B452B",
+  "display": "standalone",
+  "orientation": "portrait",
+  "enableNotifications": true,
+  "iconUrl": "https://katapalazze9-netizen.github.io/baneen-islem/icon.png",
+  "maskableIconUrl": "https://katapalazze9-netizen.github.io/baneen-islem/icon.png",
+  "shortcuts": []
+}

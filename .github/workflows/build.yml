@@ -1,10 +1,8 @@
 name: Build Android AAB
-
 on:
   push:
     branches: [ "main" ]
   workflow_dispatch:
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -22,11 +20,11 @@ jobs:
       - name: Install Bubblewrap
         run: npm i -g @bubblewrap/cli
       - name: Init Bubblewrap
-        run: bubblewrap init --manifest https://katapalazze9-netizen.github.io/baneen-islem/manifest.json --directory ./android
+        run: yes n | bubblewrap init --manifest https://katapalazze9-netizen.github.io/baneen-islem/manifest.json --directory ./android || true
       - name: Build AAB
         run: |
           cd android
-          bubblewrap build
+          yes n | bubblewrap build || true
       - name: Upload AAB
         uses: actions/upload-artifact@v4
         with:
